@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS-1</title>
+    <!-- 3.external style -->
+    <link rel="stylesheet" href="002-style.css">
+    <!-- 2.internal styles -->
+    <style>
+        .internal-style {
+            padding: 10px;
+            margin: 10px;
+            background-color: #DDFFDD;
+            font-family: monospace;
+            font-size: 28px;
+        }
+
+        .content-block {
+            display: block;
+            color: red;
+            background-color: #eee;
+            font-size: 25px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .content-inline {
+            display: inline;
+            color: white;
+            background-color: #000;
+            font-size: 28px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1.inline style -->
+    <div style="color: white; background: #000; margin: 5px; font-size: 24px; font-family: sans-serif;">
+        this refers to inline style
+    </div>
+
+    <div class="internal-style">
+        this refers to internal style sheet
+    </div>
+
+    <div class="external-style">
+        this refers to external style sheet
+    </div>
+    <hr>
+    <h1>Display Property</h1>
+    <div class="content-block">
+        display block property
+    </div>
+    <div class="content-inline">
+        display inline property
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!-- 
+    Drop Shadow - div
+    Clip -applied only to absolutely positioned(position:fixed/absolute).
+    use of px, %, cm etc.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS-3</title>
+    <style>
+        .shadow {
+            border: 2px solid;
+            box-shadow: green 5px 10px 5px 10px;
+            /* box-shadow: green 5px 10px 5px 10px inset; */
+            /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
+            ;
+        }
+
+        .clip {
+            position: absolute;
+            background-color: yellow;
+            width: 100px;
+            clip: rect(10px, 100px, 50px, 10px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        box shadow
+    </h1>
+    <div class="shadow">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium beatae ipsam iusto? Velit, sed cupiditate
+        nulla minima officiis excepturi ut aperiam vel amet in blanditiis repellendus tempore natus eveniet iure?s
+    </div>
+    <br><br>
+    <hr>
+    <div class="clip">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt doloremque ea ut corrupti quis vel
+        necessitatibus exercitationem consectetur quod quibusdam ratione blanditiis, ad labore, et iusto quas aliquid
+        cumque. Accusantium.
+    </div>
+    <br><br>
+    <hr>
+    <div>
+        <!-- 
+        centimeter
+        millimeter
+        px - relative to view device (1px = 1/96th of 1in)
+        pt - 1pt = 1/72 of 1in
+        em - relative to font-size of element(2em means 2 times the size)
+        rem - relative to font-size of root element
+        % - relative to parent element
+        in - 1in = 96px  -->
+        <span style="font-size: 16px;line-height: 2em;">
+            guvi Geek pvt ltd
+        </span>
+        <hr>
+        <span style="font-size: 2rem;border:1px solid;">
+            Guvi Geek pvt ltd
+        </span>
+        <hr>
+        <span style="font-size: 250%;border: 1px solid black;">
+            Guvi Geek pvt ltd
+        </span>
+    </div>
+</body>
+
+</html>

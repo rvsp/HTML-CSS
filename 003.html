@@ -1,0 +1,94 @@
+<!-- 
+    Margin and Padding(Box Model)
+    Float property
+    Position Property
+        Static - appear in the document flow
+        Fixed - positioned relative to the browser window
+        Relative - positioned relative to its normal position
+        Absolute - positioned relative to its first positioned
+        Sticky - positioned based on scroll position
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS-2</title>
+    <link rel="stylesheet" href="003-positions.css">
+
+    <style>
+        .float-prop {
+            float: left;
+            font-weight: bolder;
+            width: 0.7em;
+            font-size: 80px;
+        }
+
+        .box-model {
+            width: 320px;
+            border: 5px solid gray;
+            margin: 10px;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Padding & Margin</h1>
+        <div class="box-model">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque rerum facere sequi sunt autem earum,
+            aliquam omnis voluptate reprehenderit incidunt aperiam ipsam magnam alias eos obcaecati impedit rem hic!
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <h1>Float property</h1>
+        <span class="float-prop">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid atque odit
+        culpa minus earum voluptate asperiores accusantium sit eos. Possimus natus eveniet vel maiores illum dolores
+        ratione, rerum et incidunt?
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>The position property</h1>
+
+    <div id="stat-pos">
+        <h2>position: static;</h2>
+        position: static.
+    </div>
+
+
+    <div id="rel-pos">
+        <h2>position: relative;</h2>
+    </div>
+
+
+    <div id="abs-pos">
+        <h3>position: absolute;</h3>
+    </div>
+
+
+    <div id="fixed-pos">
+        <h3>position: fixed;</h3>
+    </div>
+
+    <div id="stick-pos">
+        <h3>i will stick to top</h3>
+    </div>
+
+    <div style="padding-bottom: 200%;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, officiis neque culpa dolorem repudiandae non
+        debitis distinctio minus unde ea ex est architecto incidunt corrupti tenetur in blanditiis omnis fuga! Lorem
+        ipsum dolor sit amet consectetur adipisicing
+        elit. Repellat omnis unde, vitae aspernatur, eos facilis, voluptas sint magni sunt consequuntur modi? Esse neque
+        voluptatum minima voluptatem dolorem perspiciatis voluptas voluptatibus.
+    </div>
+</body>
+
+</html>

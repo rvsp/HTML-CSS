@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        .p-tag {
+            font-family: monospace;
+            color: brown;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <button onclick="displayTime()" class="btn btn-lg btn-primary">Show Time</button> -->
+
+    <div id="time">
+    </div>
+    <div id="time1">
+    </div>
+
+    <script>
+
+        setInterval(displayTime, 1000);
+
+        function displayTime() {
+            var d = new Date();
+            document.getElementById('time').innerHTML = d.toLocaleTimeString();
+        }
+
+        setTimeout(function () {
+            var divTime1 = document.getElementById('time1');
+            var d = new Date();
+            time1.innerHTML = d.toLocaleTimeString();
+        }, 5000);
+    </script>
+
+</body>
+
+</html>

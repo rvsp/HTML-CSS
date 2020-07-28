@@ -1,0 +1,46 @@
+#stat-pos {
+  position: static;
+  border: 1px solid blue;
+  width: 600px;
+  height: 100px;
+  bottom: 20px;
+  top: 50px;
+  left: 70px;
+  right: 0;
+}
+
+#rel-pos {
+  position: relative;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+  /* bottom: 20px;
+    top: 50px; */
+  left: 70px;
+  right: 0;
+}
+
+#abs-pos {
+  position: absolute;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+  /*  */
+}
+
+#fixed-pos {
+  position: fixed;
+  border: 1px solid blue;
+  background-color: rgba(255, 200, 200, 0.5);
+  width: 300px;
+  height: 100px;
+}
+
+#stick-pos {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4caf50;
+}
