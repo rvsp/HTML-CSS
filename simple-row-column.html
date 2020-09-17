@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.css">
+    <style>
+        .my-style {
+            background-color: #9fe0d0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="row">
+        <div class="col">
+            first column
+            <div class="row">
+                <div class="col-12">
+                    first column's first row
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            second column
+        </div>
+        <div class="col">
+            third column
+        </div>
+    </div> -->
+    <script>
+        var container = document.createElement('div');
+        container.classList.add('container')
+
+        var row = document.createElement('row');
+        row.classList.add('row', 'my-style', 'py-5');
+
+        var col1 = createColumn('div', 'col');
+        col1.innerHTML = 'first column'
+        col1.classList.add('bg-warning')
+
+        var childRow = document.createElement('row');
+        childRow.classList.add('row');
+        var childColumn = createColumn('div', 'col-12')
+        childColumn.innerHTML = "first column's first row "
+        childColumn.classList.add('bg-danger')
+        childRow.appendChild(childColumn);
+
+        col1.append(childRow)
+
+        var col2 = createColumn('div', 'col');
+        col2.innerHTML = 'second column';
+        col2.classList.add('bg-success')
+        var col3 = createColumn('div', 'col');
+        col3.innerHTML = 'third column';
+        col3.classList.add('bg-secondary')
+
+        row.append(col1, col2, col3)
+
+        container.append(row)
+
+        document.body.append(container)
+
+        function createColumn(element, className, id = '') {
+            var col = document.createElement(element)
+            col.setAttribute('class', className)
+            col.id = id
+            return col;
+        }
+
+    </script>
+</body>
+
+</html>
