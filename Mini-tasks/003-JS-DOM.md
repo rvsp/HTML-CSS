@@ -1,6 +1,6 @@
 # JS, DOM Micro Tasks
 
-1. Shadow a text when a user moves the moves around the webpage.
+1. Color a `span/div` element when a user moves the mouse over the element.
 
 2. Use prompt to read a value from user and display it in the span element.
 
