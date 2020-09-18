@@ -1,6 +1,6 @@
 # JS, DOM Micro Tasks
 
-1. Color a `span/div` element when a user moves the mouse over the element.
+1. Color a `span/div` element content when a user moves the mouse over the element.
 
 2. Use prompt to read a value from user and display it in the span element.
 
