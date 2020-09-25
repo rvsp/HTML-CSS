@@ -38,7 +38,7 @@
 
 13. Write CSS rules to set the direction of the flexible items inside the `<div></div>` element in reverse order.
 
-14. Give the <div> element an image border using the image "border.png". Slice the image at 30px and stretch it.
+14. Give the `<div>` element an image border using the image "border.png". Slice the image at 30px and stretch it.
 
 ### Additional Try outs
 
