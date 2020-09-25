@@ -40,6 +40,19 @@
 
 14. Give the `<div>` element an image border using the image "border.png". Slice the image at 30px and stretch it.
 
+15. Give the `<div>` element a rounded corner (25px radius) on the bottom left side.
+
+16. Remove the transparency/opacity of the `<img>` element when the user hovers over it with the mouse pointer.
+
+17. Position the `<div>` element all the way to the right using absolute positioning.
+
+18. Add a scrollbar to the `<div>` element.
+
+19. Set a linear gradient background for the `<div>` element, going from the top to bottom, transitioning from "white" to "red" to "blue" to "green".
+
+20. With the transform property, rotate the `<div>` element 45 degrees.
+
+
 ### Additional Try outs
 
 1.
