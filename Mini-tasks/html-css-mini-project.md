@@ -1,8 +1,8 @@
-# Final Project On HTML & CSS
+# Mini Project On HTML & CSS
 
 ## Read the given instructions given below before doing your project
 
-- The final project for your HTML CSS will be a `“mini-web site.”` Choose a topic that interests you: something that excites you, something you want to tell the whole world about. If you don’t care about the subject, your readers won’t either.
+- The project for your HTML & CSS will be a `“mini-web site.”` Choose a topic that interests you: something that excites you, something you want to tell the whole world about. If you don’t care about the subject, your readers won’t either.
 
 - I want you to concentrate on the HTML, not on finding content, so do not choose a topic that requires lots of research. For example, unless are an expert about the subject, a web site about the kings of Sweden will need much time-consuming research. On the other hand a website about your favorite hobby won’t take much research at all.
 
