@@ -38,3 +38,4 @@
 5. Submission of your project:
    - All your work files should be uploaded to [GitHub](https://github.com/).
    - Deploy your project files with [Netlify](https://www.netlify.com/).
+   - Submit your GitHub and Netlify URLs in portal.
