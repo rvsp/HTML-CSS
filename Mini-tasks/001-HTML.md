@@ -57,7 +57,7 @@
 
 ---
 
-6. Design form shown in the link (https://evc-cit.info/cit040/formguide/card_0.png)
+6. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
 
 ---
 
