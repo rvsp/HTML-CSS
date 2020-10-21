@@ -14,6 +14,8 @@
 
 6. With Javascript write a simple from validation
 
+7. In your HTML Add two buttons, where first button action for full screen mode and the second button for exit from full screen mode.
+
 ---
 
 To check the stack size of browser
