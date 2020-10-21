@@ -17,6 +17,9 @@
 7. In your HTML Add two buttons, where first button action for full screen mode and the second button for exit from full screen mode.
 
 8. When user press any key in your html page show a alert that `Invalid Key Pressed`, but when user press spacebar show an alert `Thank You..!!` and close the current window.
+
+9. When a cursor is moved over an content, allow the user to edit the content in HTML page.<br>
+   NOTE: Input element should not be used.
 ---
 
 To check the stack size of browser
