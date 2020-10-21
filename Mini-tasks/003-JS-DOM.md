@@ -4,7 +4,7 @@
 
 2. Use prompt to read a value from user and display it in the span element.
 
-3. Display the mouse X and Y coordinates when you click on a `<h1>` tag.
+3. Display the mouse X and Y coordinates in a `<span>` tag when you click on a `<h1>` tag which contains a paragraph.
 
 4. Write a Javascript code for character counts in the `textarea`.
 
