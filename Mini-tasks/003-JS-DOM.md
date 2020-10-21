@@ -4,13 +4,15 @@
 
 2. Use prompt to read a value from user and display it in the span element.
 
-3. Write a Javascript code for character counts in the `textarea`.
+3. Display the mouse X and Y coordinates when you click on a `<h1>` tag.
+
+4. Write a Javascript code for character counts in the `textarea`.
 
    # Example: ![](https://miro.medium.com/max/1600/1*1HI4NXCeCz1EiIWcIE_0iQ.gif)
 
-4. Convert a given number from decimal to binary or hexadecimal
+5. Convert a given number from decimal to binary or hexadecimal
 
-5. With Javascript write a simple from validation
+6. With Javascript write a simple from validation
 
 ---
 
