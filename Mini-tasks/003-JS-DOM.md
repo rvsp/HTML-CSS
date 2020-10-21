@@ -16,6 +16,7 @@
 
 7. In your HTML Add two buttons, where first button action for full screen mode and the second button for exit from full screen mode.
 
+8. When user press any key in your html page show a alert that `Invalid Key Pressed`, but when user press spacebar show an alert `Thank You..!!` and close the current window.
 ---
 
 To check the stack size of browser
