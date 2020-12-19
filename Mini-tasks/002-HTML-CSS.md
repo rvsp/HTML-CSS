@@ -75,14 +75,22 @@
 
 ## Practice
 
+### Flexbox
 https://flexboxfroggy.com/
+
+https://flexbox.malven.co/
 
 https://flukeout.github.io/
 
 https://mastery.games/
 
+### Grid
 https://cssgridgarden.com/
 
 https://learncssgrid.com/
 
 https://grid.layoutit.com/
+
+https://grid.malven.co/
+
+
