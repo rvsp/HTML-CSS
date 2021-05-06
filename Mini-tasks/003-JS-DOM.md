@@ -20,28 +20,4 @@
 
 9. When a cursor is moved over an content, allow the user to edit the content in HTML page.<br>
    NOTE: Input element should not be used.
----
 
-To check the stack size of browser
-
-```html
-<html>
-  <head>
-    <title>Max Call Stack Size</title>
-  </head>
-  <body>
-    <script>
-      var i = 0;
-      function recurse() {
-        i++;
-        recurse();
-      }
-      try {
-        recurse();
-      } catch (ex) {
-        alert("maxStackSize = " + i + "\nerror: " + ex);
-      }
-    </script>
-  </body>
-</html>
-```
